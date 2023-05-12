@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-inner{
+    height: 70vh;
+}
+.carousel-inner .item1{
+    background-image: url(./image/221203T1328_631.jpg);
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-inner .item2{
+    background-image: url(./image/anh-phong-canh-hung-vy-nui-va-song.jpg);
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-inner .item3{
+    background-image: url(./image/hinh-anh-thien-nhien-phong-canh-dep-nhat.jpg);
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-item{
+    position: relative;
+    color: #fff;
+}
+.carousel-cap{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
